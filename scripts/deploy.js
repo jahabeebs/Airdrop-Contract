@@ -1,10 +1,10 @@
 async function main() {
-  const DalekNFT = await hre.ethers.getContractFactory("DalekNFT");
-  const nft = await DalekNFT.deploy();
+  const JacobNFT = await hre.ethers.getContractFactory("Jacob");
+  const nft = await JacobNFT.deploy();
 
   await nft.deployed();
 
-  console.log("DalekNFT deployed to:", nft.address);
+  console.log("JacobNFT deployed to:", nft.address);
 }
 
 main()

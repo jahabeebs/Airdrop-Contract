@@ -6,17 +6,25 @@ async function run() {
   const files = [{
     path: '/',
     content: JSON.stringify({
-      name: "Dalek",
+      name: "Jacob",
       attributes: [
         {
-          "trait_type": "Extermination",
-          "value": "Extremely High"
+          "trait_type": "Javascript ability",
+          "value": "Fine"
+        },
+        {
+          "trait_type": "Typescript ability",
+          "value": "Poor"
+        },
+        {
+          "trait_type": "Java ability",
+          "value": "Good"
         }
       ],
       // if you want to upload your own IPFS image, you can do so here:
       // https://github.com/ChainShot/IPFS-Upload
-      image: "https://gateway.ipfs.io/ipfs/Qmd3n8SVGhs1WRYg7mYnddyZmMhhdks6ag5PQGp1xLUE3g",
-      description: "Exterminates all the Humans!"
+      image: "https://gateway.ipfs.io/ipfs/QmPpWgmniaW7tomoVfsCGb8rGBKbtPAHyky1SbJP4HE9JT",
+      description: "A very handsome man"
     })
   }];
 
